@@ -7,10 +7,26 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+/* Default CSS END */
+/* Common shared Style Start */
 .primary-color {
   color: #fd6e0a;
 }
-/* Default CSS END */
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+/* Common shared Style End */
 /* Nav Design Start */
 nav {
   display: flex;
@@ -66,30 +82,59 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 120px;
+  padding: 40px 30px 0 120px;
 }
 /* .banner-content {
   width: 70%;
 } */
 .banner-greeting {
   color: #474747;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
   margin-bottom: 0px;
 }
 .banner-heading {
   color: #181818;
-  font-size: 70px;
+  font-size: 56px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   margin-top: 5px;
 }
 .banner-description {
   max-width: 585px;
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
 }
 /* .banner-btn {
   margin-top: 20px;
 } */
 /* header section end */
+/* Main section start */
+/* Main section end */
 /* About Section Start */
+.about {
+  padding: 130px;
+  background-color: #fff8f3;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.info-header {
+  color: #757575;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+.info-description {
+  color: #474747;
+
+  font-size: 20px;
+
+  font-weight: 700;
+  line-height: 30px;
+}
 /* About Section End */
