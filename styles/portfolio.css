@@ -1,4 +1,9 @@
 /* Default CSS Start */
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -11,11 +16,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 110px;
 }
 .nav-title {
   color: var(--dark-01, #181818);
   font-family: Open Sans;
-  font-size: 45px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -33,7 +39,7 @@ nav li:last-child {
   margin-right: 0;
 }
 nav a {
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
   color: #474747;
 }
@@ -41,10 +47,49 @@ nav a {
   border-radius: 5px;
   background-color: #fd6e0a;
   border: none;
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
   font-weight: 700;
   line-height: normal;
   padding: 18px 35px;
 }
 /* Nav Design End */
+/* header section start */
+header {
+  background-color: #fff8f3;
+  background-image: url(/images/header_bg.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: bottom right;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 120px;
+}
+/* .banner-content {
+  width: 70%;
+} */
+.banner-greeting {
+  color: #474747;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.banner-heading {
+  color: #181818;
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.banner-description {
+  max-width: 585px;
+}
+/* .banner-btn {
+  margin-top: 20px;
+} */
+/* header section end */
+/* About Section Start */
+/* About Section End */
