@@ -14,6 +14,13 @@
 
     <!-- Google Font Link -->
     <!-- Font Awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Font Awesome link -->
     <link rel="stylesheet" href="styles/portfolio.css" />
     <title>My Portfolio Website With HTML And CSS</title>
@@ -23,9 +30,10 @@
       <nav>
         <h3 class="nav-title">Hali<span class="primary-color">m</span>ur</h3>
         <ul>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="" data-after="About">About</a></li>
-          <li><button class="primary-btn">Hire me</button></li>
+          <li><a href="">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact" class="primary-btn">Hire Me</a></li>
         </ul>
       </nav>
       <div class="banner">
@@ -36,15 +44,23 @@
             Shot what able cold new see hold.Friendly as an betrayed formerly
             he. Morning because as to society behaved moments.
           </p>
-          <button class="primary-btn banner-btn">Download CV</button>
-          <button class="primary-btn banner-btn">Contact</button>
+          <a
+            href="/Resumes of Halimur Roshid Mahin.pdf.pdf"
+            class="primary-btn"
+            download="Halimur Roshid"
+            ><i class="fa-solid fa-download"></i> Download CV</a
+          >
+          <!-- <button class="primary-btn banner-btn">Download CV</button> -->
+          <button class="primary-btn banner-btn">
+            <i class="fa-solid fa-phone"></i>Contact
+          </button>
         </div>
         <img src="./images/hardy.png" alt="" width="500px" />
       </div>
     </header>
     <main>
       <!-- About section start -->
-      <section class="about">
+      <section class="about" id="about">
         <h3 class="section-title">About Me</h3>
         <p class="section-description">
           I'm a web designer and developer with a passion for design and
@@ -81,7 +97,7 @@
       </section>
       <!-- About section end -->
       <!-- What I do section start -->
-      <section class="what-i-do">
+      <section class="what-i-do" id="skills">
         <h3 class="section-title">What I do</h3>
         <p class="section-description">
           I have more than 1 year of experience building websites for clients
@@ -144,5 +160,51 @@
       </section>
       <!-- What I do section end -->
     </main>
+    <footer id="contact">
+      <div class="footer-column">
+        <h3 class="footer-title">Let's connect with me</h3>
+        <div class="social-link-container">
+          <a
+            href="https://www.facebook.com/profile.php?id=100033305123392"
+            class="social-link"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/halimur_roshid_mahin/"
+            class="social-link"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/HalimurM" class="social-link"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/halimur-roshid-mahin-393984277/"
+            class="social-link"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3 class="footer-title">Let’s Message me. Right Now.</h3>
+        <form action="">
+          <input type="text" placeholder="Your Name" class="contact-input" />
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="Your Email"
+            class="contact-input"
+          />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <input type="submit" value="Submit" class="primary-btn" />
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
