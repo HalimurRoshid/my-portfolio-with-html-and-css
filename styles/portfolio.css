@@ -75,8 +75,8 @@ nav a {
 /* header section start */
 header {
   background-color: #fff8f3;
-  background-image: url(https://github.com/HalimurRoshid/my-portfolio-with-html-and-css/blob/main/images/header_bg.png);
-  background-position: bottom right;
+  background-image: url(../images/header_bg.png), url(/images/developer.png);
+  background-position: bottom right, top left;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -86,15 +86,9 @@ header {
   justify-content: space-between;
   padding: 40px 30px 0 120px;
 }
-.developer-img {
-  background-image: url(/images/developer.png);
-  position: absolute;
-  top: 10px;
-  left: 0;
+.profile-picture {
+  width: 500px;
 }
-/* .banner-content {
-  width: 70%;
-} */
 .banner-greeting {
   color: #474747;
   font-size: 30px;
@@ -138,11 +132,11 @@ header {
 }
 .info-description {
   color: #474747;
-
+  text-align: center;
   font-size: 20px;
-
   font-weight: 700;
   line-height: 30px;
+  display: block;
 }
 /* About Section End */
 /* What I do section start */

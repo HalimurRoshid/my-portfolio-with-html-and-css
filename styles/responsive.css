@@ -1,0 +1,37 @@
+@media screen and (max-width: 576px) {
+  header {
+    background-image: none;
+  }
+  nav li {
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+  .profile-picture {
+    width: 100%;
+  }
+  .banner,
+  nav,
+  .what-i-do,
+  .about {
+    padding: 20px;
+  }
+  nav,
+  .banner,
+  .skill-row,
+  .about-info-container {
+    flex-direction: column;
+  }
+  .skills {
+    width: 100%;
+  }
+  .skill-title {
+    text-align: start;
+  }
+  footer {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footer-column {
+    width: 100%;
+  }
+}
